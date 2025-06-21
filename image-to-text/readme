@@ -1,0 +1,13 @@
+Install Tesseract (System-level)
+
+    Tesseract is not a Python package, you need to install the actual OCR engine first:
+        On Windows:
+        Download the installer from:
+            https://github.com/UB-Mannheim/tesseract/wiki
+
+        Choose the latest .exe file (e.g., tesseract-ocr-w64-setup.exe) and install it.
+            During installation, make sure to check the box for “Add Tesseract to the system path” or manually add its path later (e.g., C:\Program Files\Tesseract-OCR).
+
+Then install below packages
+pip install tesseract
+pip install pytesseract
