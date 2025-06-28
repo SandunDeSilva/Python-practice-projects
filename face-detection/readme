@@ -1,0 +1,22 @@
+# Face Detection with OpenCV
+
+This project uses OpenCV's Haar Cascade Classifier to detect **faces** in real-time using your webcam.
+
+# Features
+
+- Detects **faces** using a pre-trained Haar cascade model
+- Uses webcam for real-time video capture
+- Draws a green rectangle around each detected face
+- Cleanly exits when the **`Esc` key** is pressed
+- Simple and lightweight — no external models needed
+
+# Requirements
+
+- Python 3.x
+- OpenCV (`cv2`)
+
+Install required packages with:
+
+```bash
+pip install opencv-python
+```
