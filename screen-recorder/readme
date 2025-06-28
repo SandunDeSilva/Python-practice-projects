@@ -1,0 +1,26 @@
+# Screen Recorder in Python (OpenCV + PIL)
+
+This project is a simple Python-based screen recorder that captures your entire screen and saves it as a `.avi` video using OpenCV and PIL's `ImageGrab`.
+
+# Features
+
+- Records the full screen continuously
+- Live preview while recording
+- Stops recording cleanly when you press the **`Esc` key**
+- Saves the video as `output.avi` in the same folder
+- Frame rate: 20 FPS
+- Hardcoded resolution: `1366x768`
+
+# Requirements
+
+Make sure you have the following Python packages installed:
+
+- `opencv-python`
+- `numpy`
+- `Pillow`
+
+Install them using pip:
+
+```bash
+pip install opencv-python numpy pillow
+```
